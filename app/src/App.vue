@@ -14,8 +14,6 @@
    
 </template>
 
-    
-
 <script>
 
 import AppNavBar from "./components/AppNavBar";
