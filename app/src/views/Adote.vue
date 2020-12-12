@@ -7,7 +7,6 @@
 
 <script>
 import CardPet from "../components/CardPet";
-
 export default {
   name: "Adote",
   components: {
