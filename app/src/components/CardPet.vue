@@ -17,7 +17,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <router-link to="/adote">
+      <router-link :to="{ path: '/adote', query:{pet: this.pet}}">
         <button class="botao-adote">Adote</button>
       </router-link>
     </v-card-actions>
@@ -85,7 +85,7 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  width: 8vw;
+  width: 20vw;
   border: 1px solid white;
   padding: 3px;
   margin: 0px;
