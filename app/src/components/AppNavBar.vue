@@ -2,7 +2,7 @@
     <div class="app-nav-bar">
     <v-app-bar app color="#00aFbb" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-     <img class="logo-footer" src="../assets/MiAuDote_Logo_02.png" alt="">
+     <img class="logo" src="../assets/MiAuDote_Logo_02.png" alt="">
       
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
@@ -47,7 +47,9 @@ export default {
     .app-nav-bar a{
         text-decoration: none;
     }
-    .logo-footer{
-        width: 15%;
+    .logo{
+      display: flex;
+      margin: 0 auto;
+      width: 15%;
     }
 </style>
