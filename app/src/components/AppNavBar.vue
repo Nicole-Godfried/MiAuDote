@@ -21,7 +21,7 @@
           <router-link to="/sobre">
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-soccer</v-icon>
+                <v-icon>mdi-paw</v-icon>
               </v-list-item-icon>
               <v-list-item-title>Sobre Nós</v-list-item-title>
             </v-list-item>
