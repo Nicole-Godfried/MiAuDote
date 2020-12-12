@@ -22,11 +22,7 @@
           <router-link to="/sobre">
             <v-list-item>
               <v-list-item-icon>
-<<<<<<< HEAD
                 <v-icon>mdi-information-outline</v-icon>
-=======
-                <v-icon>mdi-paw</v-icon>
->>>>>>> 594bfdcdeca095a5e20a383f263fdf55daaa2537
               </v-list-item-icon>
               <v-list-item-title>Sobre Nós</v-list-item-title>
             </v-list-item>
