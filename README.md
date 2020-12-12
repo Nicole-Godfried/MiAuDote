@@ -29,7 +29,6 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-instalar">Como instalar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
 </p>
 
 ## 👨🏻‍💻 Sobre o projeto
@@ -94,10 +93,6 @@ $ git push origin my-feature
 
 Depois que o seu pull request recebeu merge, você pode apagar a sua branch
 
-## 📝 License
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ---
 
-Feito com 💛 &nbsp;por Amanda, Elaine, Nicóle e Sandra
+Feito com 💛 por Amanda, Elaine, Nicóle e Sandra
