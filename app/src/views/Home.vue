@@ -48,10 +48,17 @@ export default {
   },
   methods: {
     petsFiltrados(f) {
+      const palavrasFiltro = f.split(" ");
+      const camelCaseFiltro = palavrasFiltro
+        .map((palavra) => {
+          return palavra[0].toUpperCase() + palavra.substring(1);
+        })
+        .join(" ");
+
       const listaFiltrada = !f
         ? this.listaPetsOriginal
         : this.listaPetsOriginal.filter(function (pet) {
-            return pet.tags.includes(f);
+            return pet.tags.includes(camelCaseFiltro);
           });
       this.listaPets = listaFiltrada;
     },
