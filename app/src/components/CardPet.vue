@@ -3,12 +3,14 @@
     <v-img class="white--text align-end" height="400px" :src="pet.photo">
     </v-img>
     <v-card-title class="title"> {{ pet.name }}</v-card-title>
-    <div class="tags" v-for="tag of pet.tags" :key="tag">
-      <div class="chip">{{ tag }}</div>
-    </div>
+
     <v-card-subtitle class="address">
       <v-icon>mdi-map-marker</v-icon> {{ pet.address }}
     </v-card-subtitle>
+
+    <div class="tags" v-for="tag of pet.tags" :key="tag">
+      <div class="chip">{{ tag }}</div>
+    </div>
 
     <v-card-text class="description text-left">
       {{ pet.description }}
@@ -40,8 +42,8 @@ export default {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -49,17 +51,21 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
   color: #00afbb;
+  margin: 15px;
+  padding: 0px;
 }
 
 .address {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: bold;
+  margin: 0px;
+  padding: 5px;
 }
 
 .description {
   padding: 0;
-  margin: 0;
+  margin: 10px 0px 5px 0px;
 }
 
 .botao-adote {
@@ -90,5 +96,6 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 2px;
 }
 </style>
