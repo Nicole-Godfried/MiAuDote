@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="./app/assets/MiAuDote.png" width="200px" />
+	<img alt="Logo" src="./app/src/assets/MiAuDote.png" width="200px" />
 </h1>
 
 <h3 align="center">
