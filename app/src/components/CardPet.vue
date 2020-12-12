@@ -8,8 +8,10 @@
       <v-icon>mdi-map-marker</v-icon> {{ pet.address }}
     </v-card-subtitle>
 
-    <div class="tags" v-for="tag of pet.tags" :key="tag">
-      <div class="chip">{{ tag }}</div>
+    <div class="alinha">
+      <div class="tags" v-for="tag of pet.tags" :key="tag">
+        <div class="chip">{{ tag }}</div>
+      </div>
     </div>
 
     <v-card-text class="description text-left">
@@ -17,7 +19,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <router-link to="/adote">
+      <router-link :to="{ path: '/adote', query:{pet: this.pet}}">
         <button class="botao-adote">Adote</button>
       </router-link>
     </v-card-actions>
@@ -95,7 +97,16 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin: 2px;
+  align-items: flex;
+  margin: 5px;
+}
+
+.alinha {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 </style>
