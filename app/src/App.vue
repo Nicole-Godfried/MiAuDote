@@ -5,7 +5,7 @@
     <AppNavBar />
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/sobre">Sobre</router-link> |
+      <router-link to="/sobre">Sobre Nós</router-link> |
       <router-link to="/adote">Adote</router-link>
     </div>
     <router-view/>
