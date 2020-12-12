@@ -19,7 +19,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <router-link :to="{ path: '/adote', query:{pet: this.pet}}">
+      <router-link :to="{ path: '/adote', query: { pet: this.pet } }">
         <button class="botao-adote">Adote</button>
       </router-link>
     </v-card-actions>
@@ -108,5 +108,22 @@ export default {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+}
+
+@media (max-width: 900px) {
+  .tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex;
+    margin: 5px;
+  }
+
+  .alinha {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
 }
 </style>
