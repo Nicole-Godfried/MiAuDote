@@ -29,13 +29,9 @@ export default {
     .footer{
     display: flex;
     margin: 0 auto;
-    
-    
     }
 
-    .logo-footer{
-        
-        width: 50%;
-        
+    .logo-footer{        
+        width: 50%;        
     }
 </style>
