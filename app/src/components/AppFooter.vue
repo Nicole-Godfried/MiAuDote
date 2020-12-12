@@ -22,7 +22,13 @@ export default {
   margin: 0 auto;
 }
 
-.logo-footer {
-  width: 50%;
-}
+    .footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    }
+
+    .logo-footer{        
+        width: 50%;        
+    }
 </style>
