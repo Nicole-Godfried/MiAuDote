@@ -47,7 +47,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
-
 .title {
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -56,7 +55,6 @@ export default {
   margin: 15px;
   padding: 0px;
 }
-
 .address {
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -64,12 +62,10 @@ export default {
   margin: 0px;
   padding: 5px;
 }
-
 .description {
   padding: 0;
   margin: 10px 0px 5px 0px;
 }
-
 .botao-adote {
   border: 1px solid #00afbb;
   border-radius: 10%;
@@ -80,19 +76,16 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .chip {
   background-color: #00afbb;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  width: 8vw;
   border: 1px solid white;
   padding: 3px;
   margin: 0px;
 }
-
 .tags {
   display: flex;
   flex-direction: row;
@@ -100,7 +93,6 @@ export default {
   align-items: flex;
   margin: 5px;
 }
-
 .alinha {
   display: flex;
   flex-direction: row;
@@ -109,7 +101,6 @@ export default {
   flex-wrap: wrap;
   width: 100%;
 }
-
 @media (max-width: 900px) {
   .tags {
     display: flex;
@@ -118,7 +109,6 @@ export default {
     align-items: flex;
     margin: 5px;
   }
-
   .alinha {
     flex-direction: row;
     width: 100%;
