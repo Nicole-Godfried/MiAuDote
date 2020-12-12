@@ -2,25 +2,17 @@
   <v-card class="mx-auto card-pet" max-width="400">
     <v-img class="white--text align-end" height="400px" :src="pet.photo">
     </v-img>
-    <v-card-title class="title">{{ pet.name }}</v-card-title>
-<div class="tags" v-for="tag of pet.tags" :key="tag">
+    <v-card-title class="title"> {{ pet.name }}</v-card-title>
+    <div class="tags" v-for="tag of pet.tags" :key="tag">
       <div class="chip">{{ tag }}</div>
     </div>
-    <v-card-subtitle class="address">{{ pet.address }}</v-card-subtitle>
+    <v-card-subtitle class="address">
+      <v-icon>mdi-map-marker</v-icon> {{ pet.address }}</v-card-subtitle
+    >
 
     <v-card-text class="description text-left">
       {{ pet.description }}
     </v-card-text>
-
-    
-
-    <!-- <v-container v-for="tag in pet.tags" :key="tag" class="grey lighten-5 mb-6">
-      <v-row no-gutters>
-          <div class="chip">{{ tag }}</div>
-        <v-col v-for="n in 1" :key="n">
-        </v-col>
-      </v-row>
-    </v-container> -->
 
     <v-card-actions>
       <router-link to="/adote">
@@ -44,7 +36,7 @@ export default {
 
 <style scoped>
 .card-pet {
-  margin: 20px 20px;
+  margin: 10px 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
