@@ -2,7 +2,6 @@
   <div class="sobre">
     <h1 class="text h5 text-center mb-2 mt-2">Sobre nós</h1>
     <v-container>
-      <h1 class="text h5 text-center mb-5 mt-3">Sobre nós</h1>
       <p></p>
       <h3 class="text-left mb-5 mt-5">De onde viemos?</h3>
       <p class="text-left">
