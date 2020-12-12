@@ -50,6 +50,12 @@ export default {
 .logo {
   display: flex;
   margin: 0 auto;
-  width: 15%;
+  width: 20%;
+}
+
+@media (max-width: 900px) {
+  .logo{
+    width: 65%;
+  }
 }
 </style>
