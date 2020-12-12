@@ -87,7 +87,7 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  width: 15vw;
+  width: 8vw;
   border: 1px solid white;
   padding: 3px;
   margin: 0px;
