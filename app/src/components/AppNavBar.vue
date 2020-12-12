@@ -18,12 +18,12 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/">
+          <router-link to="/sobre">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-soccer</v-icon>
               </v-list-item-icon>
-              <v-list-item-title>Sobre</v-list-item-title>
+              <v-list-item-title>Sobre Nós</v-list-item-title>
             </v-list-item>
           </router-link>
 
