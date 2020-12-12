@@ -51,7 +51,7 @@ export default {
       const palavrasFiltro = f.split(" ");
       const camelCaseFiltro = palavrasFiltro
         .map((palavra) => {
-          return palavra[0].toUpperCase() + palavra.substring(1);
+          return palavra[0].toUpperCase() + palavra.substring(1).toLowerCase();
         })
         .join(" ");
 
