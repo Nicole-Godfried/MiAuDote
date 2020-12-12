@@ -3,7 +3,7 @@
     <v-app-bar app color="#00aFbb" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
      <img class="logo-footer" src="../assets/MiAuDote_Logo_02.png" alt="">
-      <v-toolbar-title> MiAuDote </v-toolbar-title>
+      
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>

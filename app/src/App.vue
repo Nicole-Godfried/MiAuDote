@@ -1,13 +1,20 @@
 <template>
-  <v-app>
+  
+    
+  <div id="app">
     <AppNavBar />
-
-    <v-main>
-      <router-view />
-    </v-main>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/sobre">Sobre</router-link> |
+      <router-link to="/adote">Adote</router-link>
+    </div>
+    <router-view/>
     <AppFooter/>
-  </v-app>
+  </div>
+   
 </template>
+
+    
 
 <script>
 
