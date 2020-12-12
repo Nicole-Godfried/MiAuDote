@@ -1,12 +1,9 @@
 <template>
   <div id="app">
     <AppNavBar />
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/sobre">Sobre Nós</router-link> |
-      <router-link to="/adote">Adote</router-link>
-    </div>
-    <router-view/>
+    <v-main class="main">
+      <router-view/>
+    </v-main>
     <AppFooter/>
   </div>
 </template>
@@ -44,5 +41,9 @@ export default {
       color: #00AFBB;
     }
   }
+}
+
+.main {
+  margin: 10px;
 }
 </style>
