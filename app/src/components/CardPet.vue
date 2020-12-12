@@ -10,7 +10,7 @@
 
     <div class="alinha">
       <div class="tags" v-for="tag of pet.tags" :key="tag">
-        <div class="chip">{{ tag }}</div>
+        <div>{{ tag }}</div>
       </div>
     </div>
 
@@ -76,7 +76,7 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
 }
-.chip {
+.tags {
   background-color: #00afbb;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -84,14 +84,8 @@ export default {
   font-size: 14px;
   border: 1px solid white;
   padding: 3px;
-  margin: 0px;
-}
-.tags {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex;
   margin: 5px;
+  min-width: 25%;
 }
 .alinha {
   display: flex;
@@ -100,20 +94,5 @@ export default {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-}
-@media (max-width: 900px) {
-  .tags {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex;
-    margin: 5px;
-  }
-  .alinha {
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 10px;
-    align-items: flex-start;
-  }
 }
 </style>
