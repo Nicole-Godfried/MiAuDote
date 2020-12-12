@@ -7,8 +7,8 @@
       <div class="chip">{{ tag }}</div>
     </div>
     <v-card-subtitle class="address">
-      <v-icon>mdi-map-marker</v-icon> {{ pet.address }}</v-card-subtitle
-    >
+      <v-icon>mdi-map-marker</v-icon> {{ pet.address }}
+    </v-card-subtitle>
 
     <v-card-text class="description text-left">
       {{ pet.description }}
